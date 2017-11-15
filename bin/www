@@ -1,11 +1,7 @@
 #!/usr/bin/env node
 
-/**
- * Module dependencies.
- */
-
 var app = require('../app');
-var debug = require('debug')('googlemapsexpress:server');
+var debug = require('debug')('googlemaps:server');
 var http = require('http');
 
 /**
